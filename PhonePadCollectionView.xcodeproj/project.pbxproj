@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23773B70225449180045B65C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23773B6F225449180045B65C /* AppDelegate.swift */; };
+		23773B72225449180045B65C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23773B71225449180045B65C /* ViewController.swift */; };
+		23773B75225449180045B65C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23773B73225449180045B65C /* Main.storyboard */; };
+		23773B77225449190045B65C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23773B76225449190045B65C /* Assets.xcassets */; };
+		23773B7A225449190045B65C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23773B78225449190045B65C /* LaunchScreen.storyboard */; };
+		23773B85225449190045B65C /* PhonePadCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23773B84225449190045B65C /* PhonePadCollectionViewTests.swift */; };
+		23773B90225449190045B65C /* PhonePadCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23773B8F225449190045B65C /* PhonePadCollectionViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23773B81225449190045B65C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23773B64225449180045B65C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23773B6B225449180045B65C;
+			remoteInfo = PhonePadCollectionView;
+		};
+		23773B8C225449190045B65C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23773B64225449180045B65C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23773B6B225449180045B65C;
+			remoteInfo = PhonePadCollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23773B6C225449180045B65C /* PhonePadCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhonePadCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23773B6F225449180045B65C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23773B71225449180045B65C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23773B74225449180045B65C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23773B76225449190045B65C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23773B79225449190045B65C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23773B7B225449190045B65C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23773B80225449190045B65C /* PhonePadCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhonePadCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23773B84225449190045B65C /* PhonePadCollectionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePadCollectionViewTests.swift; sourceTree = "<group>"; };
+		23773B86225449190045B65C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23773B8B225449190045B65C /* PhonePadCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhonePadCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23773B8F225449190045B65C /* PhonePadCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePadCollectionViewUITests.swift; sourceTree = "<group>"; };
+		23773B91225449190045B65C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23773B69225449180045B65C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23773B7D225449190045B65C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23773B88225449190045B65C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23773B63225449180045B65C = {
+			isa = PBXGroup;
+			children = (
+				23773B6E225449180045B65C /* PhonePadCollectionView */,
+				23773B83225449190045B65C /* PhonePadCollectionViewTests */,
+				23773B8E225449190045B65C /* PhonePadCollectionViewUITests */,
+				23773B6D225449180045B65C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23773B6D225449180045B65C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23773B6C225449180045B65C /* PhonePadCollectionView.app */,
+				23773B80225449190045B65C /* PhonePadCollectionViewTests.xctest */,
+				23773B8B225449190045B65C /* PhonePadCollectionViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23773B6E225449180045B65C /* PhonePadCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				23773B6F225449180045B65C /* AppDelegate.swift */,
+				23773B71225449180045B65C /* ViewController.swift */,
+				23773B73225449180045B65C /* Main.storyboard */,
+				23773B76225449190045B65C /* Assets.xcassets */,
+				23773B78225449190045B65C /* LaunchScreen.storyboard */,
+				23773B7B225449190045B65C /* Info.plist */,
+			);
+			path = PhonePadCollectionView;
+			sourceTree = "<group>";
+		};
+		23773B83225449190045B65C /* PhonePadCollectionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				23773B84225449190045B65C /* PhonePadCollectionViewTests.swift */,
+				23773B86225449190045B65C /* Info.plist */,
+			);
+			path = PhonePadCollectionViewTests;
+			sourceTree = "<group>";
+		};
+		23773B8E225449190045B65C /* PhonePadCollectionViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23773B8F225449190045B65C /* PhonePadCollectionViewUITests.swift */,
+				23773B91225449190045B65C /* Info.plist */,
+			);
+			path = PhonePadCollectionViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23773B6B225449180045B65C /* PhonePadCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23773B94225449190045B65C /* Build configuration list for PBXNativeTarget "PhonePadCollectionView" */;
+			buildPhases = (
+				23773B68225449180045B65C /* Sources */,
+				23773B69225449180045B65C /* Frameworks */,
+				23773B6A225449180045B65C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhonePadCollectionView;
+			productName = PhonePadCollectionView;
+			productReference = 23773B6C225449180045B65C /* PhonePadCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23773B7F225449190045B65C /* PhonePadCollectionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23773B97225449190045B65C /* Build configuration list for PBXNativeTarget "PhonePadCollectionViewTests" */;
+			buildPhases = (
+				23773B7C225449190045B65C /* Sources */,
+				23773B7D225449190045B65C /* Frameworks */,
+				23773B7E225449190045B65C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23773B82225449190045B65C /* PBXTargetDependency */,
+			);
+			name = PhonePadCollectionViewTests;
+			productName = PhonePadCollectionViewTests;
+			productReference = 23773B80225449190045B65C /* PhonePadCollectionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23773B8A225449190045B65C /* PhonePadCollectionViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23773B9A225449190045B65C /* Build configuration list for PBXNativeTarget "PhonePadCollectionViewUITests" */;
+			buildPhases = (
+				23773B87225449190045B65C /* Sources */,
+				23773B88225449190045B65C /* Frameworks */,
+				23773B89225449190045B65C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23773B8D225449190045B65C /* PBXTargetDependency */,
+			);
+			name = PhonePadCollectionViewUITests;
+			productName = PhonePadCollectionViewUITests;
+			productReference = 23773B8B225449190045B65C /* PhonePadCollectionViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23773B64225449180045B65C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Nguyen Vinh";
+				TargetAttributes = {
+					23773B6B225449180045B65C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					23773B7F225449190045B65C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 23773B6B225449180045B65C;
+					};
+					23773B8A225449190045B65C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 23773B6B225449180045B65C;
+					};
+				};
+			};
+			buildConfigurationList = 23773B67225449180045B65C /* Build configuration list for PBXProject "PhonePadCollectionView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23773B63225449180045B65C;
+			productRefGroup = 23773B6D225449180045B65C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23773B6B225449180045B65C /* PhonePadCollectionView */,
+				23773B7F225449190045B65C /* PhonePadCollectionViewTests */,
+				23773B8A225449190045B65C /* PhonePadCollectionViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23773B6A225449180045B65C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23773B7A225449190045B65C /* LaunchScreen.storyboard in Resources */,
+				23773B77225449190045B65C /* Assets.xcassets in Resources */,
+				23773B75225449180045B65C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23773B7E225449190045B65C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23773B89225449190045B65C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23773B68225449180045B65C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23773B72225449180045B65C /* ViewController.swift in Sources */,
+				23773B70225449180045B65C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23773B7C225449190045B65C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23773B85225449190045B65C /* PhonePadCollectionViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23773B87225449190045B65C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23773B90225449190045B65C /* PhonePadCollectionViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23773B82225449190045B65C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23773B6B225449180045B65C /* PhonePadCollectionView */;
+			targetProxy = 23773B81225449190045B65C /* PBXContainerItemProxy */;
+		};
+		23773B8D225449190045B65C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23773B6B225449180045B65C /* PhonePadCollectionView */;
+			targetProxy = 23773B8C225449190045B65C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23773B73225449180045B65C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23773B74225449180045B65C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23773B78225449190045B65C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23773B79225449190045B65C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23773B92225449190045B65C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23773B93225449190045B65C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23773B95225449190045B65C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46W25C8KDG;
+				INFOPLIST_FILE = PhonePadCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ominext.PhonePadCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23773B96225449190045B65C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46W25C8KDG;
+				INFOPLIST_FILE = PhonePadCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ominext.PhonePadCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		23773B98225449190045B65C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46W25C8KDG;
+				INFOPLIST_FILE = PhonePadCollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ominext.PhonePadCollectionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhonePadCollectionView.app/PhonePadCollectionView";
+			};
+			name = Debug;
+		};
+		23773B99225449190045B65C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46W25C8KDG;
+				INFOPLIST_FILE = PhonePadCollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ominext.PhonePadCollectionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhonePadCollectionView.app/PhonePadCollectionView";
+			};
+			name = Release;
+		};
+		23773B9B225449190045B65C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46W25C8KDG;
+				INFOPLIST_FILE = PhonePadCollectionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ominext.PhonePadCollectionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhonePadCollectionView;
+			};
+			name = Debug;
+		};
+		23773B9C225449190045B65C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46W25C8KDG;
+				INFOPLIST_FILE = PhonePadCollectionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ominext.PhonePadCollectionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhonePadCollectionView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23773B67225449180045B65C /* Build configuration list for PBXProject "PhonePadCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23773B92225449190045B65C /* Debug */,
+				23773B93225449190045B65C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23773B94225449190045B65C /* Build configuration list for PBXNativeTarget "PhonePadCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23773B95225449190045B65C /* Debug */,
+				23773B96225449190045B65C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23773B97225449190045B65C /* Build configuration list for PBXNativeTarget "PhonePadCollectionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23773B98225449190045B65C /* Debug */,
+				23773B99225449190045B65C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23773B9A225449190045B65C /* Build configuration list for PBXNativeTarget "PhonePadCollectionViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23773B9B225449190045B65C /* Debug */,
+				23773B9C225449190045B65C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23773B64225449180045B65C /* Project object */;
+}
