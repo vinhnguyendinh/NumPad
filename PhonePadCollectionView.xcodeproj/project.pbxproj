@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		233B340122549355000008EE /* Pad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233B340022549355000008EE /* Pad.swift */; };
+		233B340222549355000008EE /* Pad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233B340022549355000008EE /* Pad.swift */; };
+		233B340322549355000008EE /* Pad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233B340022549355000008EE /* Pad.swift */; };
+		233B340522549588000008EE /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233B340422549588000008EE /* UIDeviceExtensions.swift */; };
+		233B340622549588000008EE /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233B340422549588000008EE /* UIDeviceExtensions.swift */; };
+		233B340722549588000008EE /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233B340422549588000008EE /* UIDeviceExtensions.swift */; };
 		23773B70225449180045B65C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23773B6F225449180045B65C /* AppDelegate.swift */; };
 		23773B72225449180045B65C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23773B71225449180045B65C /* ViewController.swift */; };
 		23773B75225449180045B65C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23773B73225449180045B65C /* Main.storyboard */; };
@@ -14,6 +20,30 @@
 		23773B7A225449190045B65C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23773B78225449190045B65C /* LaunchScreen.storyboard */; };
 		23773B85225449190045B65C /* PhonePadCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23773B84225449190045B65C /* PhonePadCollectionViewTests.swift */; };
 		23773B90225449190045B65C /* PhonePadCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23773B8F225449190045B65C /* PhonePadCollectionViewUITests.swift */; };
+		23773BA222544AD70045B65C /* NumberPadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23773BA022544AD70045B65C /* NumberPadCell.swift */; };
+		23773BA322544AD70045B65C /* NumberPadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23773BA022544AD70045B65C /* NumberPadCell.swift */; };
+		23773BA422544AD70045B65C /* NumberPadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23773BA022544AD70045B65C /* NumberPadCell.swift */; };
+		23773BA522544AD70045B65C /* NumberPadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23773BA122544AD70045B65C /* NumberPadCell.xib */; };
+		23773BA622544AD70045B65C /* NumberPadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23773BA122544AD70045B65C /* NumberPadCell.xib */; };
+		23773BA722544AD70045B65C /* NumberPadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23773BA122544AD70045B65C /* NumberPadCell.xib */; };
+		23773BAA2254523E0045B65C /* PhoneHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23773BA82254523E0045B65C /* PhoneHeaderView.swift */; };
+		23773BAB2254523E0045B65C /* PhoneHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23773BA82254523E0045B65C /* PhoneHeaderView.swift */; };
+		23773BAC2254523E0045B65C /* PhoneHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23773BA82254523E0045B65C /* PhoneHeaderView.swift */; };
+		23773BAD2254523E0045B65C /* PhoneHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23773BA92254523E0045B65C /* PhoneHeaderView.xib */; };
+		23773BAE2254523E0045B65C /* PhoneHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23773BA92254523E0045B65C /* PhoneHeaderView.xib */; };
+		23773BAF2254523E0045B65C /* PhoneHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23773BA92254523E0045B65C /* PhoneHeaderView.xib */; };
+		23773BB2225458250045B65C /* GreenCallButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23773BB0225458250045B65C /* GreenCallButtonCell.swift */; };
+		23773BB3225458250045B65C /* GreenCallButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23773BB0225458250045B65C /* GreenCallButtonCell.swift */; };
+		23773BB4225458250045B65C /* GreenCallButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23773BB0225458250045B65C /* GreenCallButtonCell.swift */; };
+		23773BB5225458250045B65C /* GreenCallButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23773BB1225458250045B65C /* GreenCallButtonCell.xib */; };
+		23773BB6225458250045B65C /* GreenCallButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23773BB1225458250045B65C /* GreenCallButtonCell.xib */; };
+		23773BB7225458250045B65C /* GreenCallButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23773BB1225458250045B65C /* GreenCallButtonCell.xib */; };
+		23773BBA22545C4E0045B65C /* SpaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23773BB822545C4E0045B65C /* SpaceCell.swift */; };
+		23773BBB22545C4E0045B65C /* SpaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23773BB822545C4E0045B65C /* SpaceCell.swift */; };
+		23773BBC22545C4E0045B65C /* SpaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23773BB822545C4E0045B65C /* SpaceCell.swift */; };
+		23773BBD22545C4E0045B65C /* SpaceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23773BB922545C4E0045B65C /* SpaceCell.xib */; };
+		23773BBE22545C4E0045B65C /* SpaceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23773BB922545C4E0045B65C /* SpaceCell.xib */; };
+		23773BBF22545C4E0045B65C /* SpaceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23773BB922545C4E0045B65C /* SpaceCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +64,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		233B340022549355000008EE /* Pad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pad.swift; sourceTree = "<group>"; };
+		233B340422549588000008EE /* UIDeviceExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceExtensions.swift; sourceTree = "<group>"; };
 		23773B6C225449180045B65C /* PhonePadCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhonePadCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23773B6F225449180045B65C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23773B71225449180045B65C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +79,14 @@
 		23773B8B225449190045B65C /* PhonePadCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhonePadCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23773B8F225449190045B65C /* PhonePadCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePadCollectionViewUITests.swift; sourceTree = "<group>"; };
 		23773B91225449190045B65C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23773BA022544AD70045B65C /* NumberPadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPadCell.swift; sourceTree = "<group>"; };
+		23773BA122544AD70045B65C /* NumberPadCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NumberPadCell.xib; sourceTree = "<group>"; };
+		23773BA82254523E0045B65C /* PhoneHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneHeaderView.swift; sourceTree = "<group>"; };
+		23773BA92254523E0045B65C /* PhoneHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhoneHeaderView.xib; sourceTree = "<group>"; };
+		23773BB0225458250045B65C /* GreenCallButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenCallButtonCell.swift; sourceTree = "<group>"; };
+		23773BB1225458250045B65C /* GreenCallButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GreenCallButtonCell.xib; sourceTree = "<group>"; };
+		23773BB822545C4E0045B65C /* SpaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceCell.swift; sourceTree = "<group>"; };
+		23773BB922545C4E0045B65C /* SpaceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpaceCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +137,15 @@
 		23773B6E225449180045B65C /* PhonePadCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				23773B9F22544A760045B65C /* Controllers */,
+				23773B9E22544A710045B65C /* Views */,
+				23773B9D22544A680045B65C /* Models */,
 				23773B6F225449180045B65C /* AppDelegate.swift */,
-				23773B71225449180045B65C /* ViewController.swift */,
 				23773B73225449180045B65C /* Main.storyboard */,
 				23773B76225449190045B65C /* Assets.xcassets */,
 				23773B78225449190045B65C /* LaunchScreen.storyboard */,
 				23773B7B225449190045B65C /* Info.plist */,
+				233B340422549588000008EE /* UIDeviceExtensions.swift */,
 			);
 			path = PhonePadCollectionView;
 			sourceTree = "<group>";
@@ -123,6 +166,37 @@
 				23773B91225449190045B65C /* Info.plist */,
 			);
 			path = PhonePadCollectionViewUITests;
+			sourceTree = "<group>";
+		};
+		23773B9D22544A680045B65C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				233B340022549355000008EE /* Pad.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		23773B9E22544A710045B65C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				23773BA022544AD70045B65C /* NumberPadCell.swift */,
+				23773BA122544AD70045B65C /* NumberPadCell.xib */,
+				23773BA82254523E0045B65C /* PhoneHeaderView.swift */,
+				23773BA92254523E0045B65C /* PhoneHeaderView.xib */,
+				23773BB0225458250045B65C /* GreenCallButtonCell.swift */,
+				23773BB1225458250045B65C /* GreenCallButtonCell.xib */,
+				23773BB822545C4E0045B65C /* SpaceCell.swift */,
+				23773BB922545C4E0045B65C /* SpaceCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		23773B9F22544A760045B65C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				23773B71225449180045B65C /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +303,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23773BA522544AD70045B65C /* NumberPadCell.xib in Resources */,
 				23773B7A225449190045B65C /* LaunchScreen.storyboard in Resources */,
 				23773B77225449190045B65C /* Assets.xcassets in Resources */,
+				23773BAD2254523E0045B65C /* PhoneHeaderView.xib in Resources */,
 				23773B75225449180045B65C /* Main.storyboard in Resources */,
+				23773BB5225458250045B65C /* GreenCallButtonCell.xib in Resources */,
+				23773BBD22545C4E0045B65C /* SpaceCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +317,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23773BAE2254523E0045B65C /* PhoneHeaderView.xib in Resources */,
+				23773BA622544AD70045B65C /* NumberPadCell.xib in Resources */,
+				23773BBE22545C4E0045B65C /* SpaceCell.xib in Resources */,
+				23773BB6225458250045B65C /* GreenCallButtonCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +328,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23773BAF2254523E0045B65C /* PhoneHeaderView.xib in Resources */,
+				23773BA722544AD70045B65C /* NumberPadCell.xib in Resources */,
+				23773BBF22545C4E0045B65C /* SpaceCell.xib in Resources */,
+				23773BB7225458250045B65C /* GreenCallButtonCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +343,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				23773B72225449180045B65C /* ViewController.swift in Sources */,
+				233B340522549588000008EE /* UIDeviceExtensions.swift in Sources */,
+				23773BA222544AD70045B65C /* NumberPadCell.swift in Sources */,
+				233B340122549355000008EE /* Pad.swift in Sources */,
+				23773BB2225458250045B65C /* GreenCallButtonCell.swift in Sources */,
+				23773BAA2254523E0045B65C /* PhoneHeaderView.swift in Sources */,
+				23773BBA22545C4E0045B65C /* SpaceCell.swift in Sources */,
 				23773B70225449180045B65C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +357,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23773BBB22545C4E0045B65C /* SpaceCell.swift in Sources */,
+				23773BA322544AD70045B65C /* NumberPadCell.swift in Sources */,
+				23773BB3225458250045B65C /* GreenCallButtonCell.swift in Sources */,
+				233B340222549355000008EE /* Pad.swift in Sources */,
 				23773B85225449190045B65C /* PhonePadCollectionViewTests.swift in Sources */,
+				23773BAB2254523E0045B65C /* PhoneHeaderView.swift in Sources */,
+				233B340622549588000008EE /* UIDeviceExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +371,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23773BBC22545C4E0045B65C /* SpaceCell.swift in Sources */,
+				23773BA422544AD70045B65C /* NumberPadCell.swift in Sources */,
+				23773BB4225458250045B65C /* GreenCallButtonCell.swift in Sources */,
+				233B340322549355000008EE /* Pad.swift in Sources */,
 				23773B90225449190045B65C /* PhonePadCollectionViewUITests.swift in Sources */,
+				23773BAC2254523E0045B65C /* PhoneHeaderView.swift in Sources */,
+				233B340722549588000008EE /* UIDeviceExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
